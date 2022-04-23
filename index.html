@@ -1,0 +1,81 @@
+    <!--this is just a dummy😘😘-->
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>first page</title><script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+    
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+    }
+       </script>
+        </head>
+        <body bgcolor="pink"><header>
+        <h1 align="center"><u><i>TrIaL_A1</i></u></h1></header>
+        <!--end--><na>
+            <ul>
+                <li><a href="####">home</a></li>
+                <li><a href="####">next page</a></li>
+            </ul>
+        </na>
+        <article><h1 align="center">Welcome</h1>
+        <section align="left">
+            <P>My name is <em>Kofi</em>,I am trying to help solve problems in my country .<br/> I started using Sololearn on the 22<sup>nd</sup> of December 2021 to help me develop this skill.<br/>If you are interested in learning how to program click on the link below.</P>
+                <audio controls loop>
+                    <source src="audio.ogg" type="audio/mp3">not supported</source>
+                   </audio>
+            </section>
+        
+        <p><a href="####"target="second page"><i><strong>click here</strong></i></a>></p>
+        <p>I will start by listing a couple of activities i will like to perform next week.</p>
+        <table bgcolor="cream" align="centre"border="2">
+            <tr>
+                <th bgcolor=blue>days</th>
+                <th  bgcolor="orange">6:00-6:30</th>  
+                <th bgcolor="orange">7:30-8:00</th>
+            </tr>
+            <tr>
+                <td select="class">Monday</td>
+                <td>learn</td>
+                <td>play</td>
+            </tr>
+            <tr>
+                <td select="class">Tuesday</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <hr>
+        <form action="####" method="GET">
+       username:<br/><input type="name" name="text" /><br/>email:<br/> <input  type="email" name="email"/><br/>password:<br/><input  type="password" name="password" value="********"/>
+           <hr>
+        <input type="radio" name="gender" value="male"/>male<br/><input type="radio" name="gender" value="female"/>female
+        <hr>
+       age:<br/> <input type="number" name="age" placeholder="age"/><br/> date of birth:<br/><input type="number and symbols" name="date of birth" />
+       <hr>
+       <textarea type="text" name="message" autofocus="true"></textarea><br/><input type="submit" name="send"/>
+       <hr>
+       
+       <img id="image" src="0.jpg" draggable="true"
+       ondragstart="drag(event)" width="150" height="50" alt="no picture available" />
+       <hr>
+       <p><strong><i>
+           I am done with this project.
+       </i></strong></p>
+       <footer>
+           <ul>
+           <li><a href="####">terms and conditions</a></li>
+               <li><a href="####">copyright policy</a></li>
+               <li><a href="####">contact us</a></li>
+           </ul>
+       </footer>
+        </body>
+    </html>
